@@ -12,5 +12,8 @@
 *.la
 *.a
 
+# Java
+*.class
+
 # Experiments
 other/*

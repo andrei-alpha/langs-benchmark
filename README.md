@@ -11,9 +11,13 @@ Several executions give the following results:
 
 |Language|Compiler|Running time, ms|
 |--------|--------|------------|
+|Java | javac 1.7.0_51 | 389 |
 |C++     |g++ 54-bit | 1054 |
 |C     | gcc 64-bit| 1032 |
-|CoffeScript | CoffeeScript 1.6.3 | 2426 
-|JavaScript | V8 3.23.0 64-bit|  | 1637
-|Python 3 | Python 3.3.2 32-bit | 41000 |
+|C# | Mono 2.10.8.1 | 1407 |
+|JavaScript | node.js v0.10.25 | 1591 |
 |Go | Go 1.2 32-bit | 1625 |
+|CoffeScript | CoffeeScript 1.6.3 | 2371 |
+|Python 2 | Python 2.7.4 64-bit | 41004 |
+|Ruby | ruby 1.9.3p194 | 51017 |
+|Perl | perl 5 | 70634
