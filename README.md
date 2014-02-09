@@ -11,13 +11,13 @@ Several executions give the following results:
 
 |Language|Compiler|Running time, ms|
 |--------|--------|------------|
+|C     | gcc 64-bit| 181 | 
+|C++     |g++ 54-bit | 183 |
 |Java | javac 1.7.0_51 | 389 |
-|Pascal | fpc 2.6.0-9 | 1019 |
-|C     | gcc 64-bit| 1032 | 
-|C++     |g++ 54-bit | 1054 |
-|C# | Mono 2.10.8.1 | 1407 |
+|Pascal | fpc 2.6.0-9 | 843 |
+|C# | Mono 2.10.8.1 | 1272 |
+|Go | Go 1.2 32-bit | 1338 |
 |JavaScript | node.js v0.10.25 | 1591 |
-|Go | Go 1.2 32-bit | 1625 |
 |D | gdc 4.6.4 | 2320 |
 |CoffeScript | CoffeeScript 1.6.3 | 2371 |
 |Scala | scalac 2.9.2 | 3200 |

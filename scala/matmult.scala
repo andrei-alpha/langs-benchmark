@@ -16,7 +16,7 @@ object Matmult {
 		for(i <- 0 until SIZE;
 			k <- 0 until SIZE;
 			j <- 0 until SIZE) {
-			c(i)(j) += a(i)(j) * a(i)(k)
+			c(i)(j) += a(i)(k) * a(k)(j)
 		}
 
 		var ret = 0

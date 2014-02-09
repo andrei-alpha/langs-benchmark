@@ -17,7 +17,7 @@ def matmult():
   for i in range(SIZE):
     for k in range(SIZE):
       for j in range(SIZE):
-        c[i][j] += a[i][j] * a[i][k]
+        c[i][j] += a[i][k] * a[k][j]
 
   res = 0
   for i in range(SIZE):

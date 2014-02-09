@@ -17,7 +17,7 @@ sub matmult {
 	for $i (0..$SIZE-1) {
 		for $k (0..$SIZE-1) {
 			for $j (0..$SIZE-1) {
-				$c[i][j] += $a[i][j] * $a[i][k];
+				$c[i][j] += $a[i][k] * $a[k][j];
 			}
 		}
 	}

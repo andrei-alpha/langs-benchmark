@@ -22,7 +22,7 @@ func main() {
 	for i := 0; i < SIZE; i++ {
 		for k := 0; k < SIZE; k++ {
 			for j := 0; j < SIZE; j++ {
-				c[i][j] += a[i][j] * a[i][k]
+				c[i][j] += a[i][k] * a[k][j]
 			}
 		}
 	}

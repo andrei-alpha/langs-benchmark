@@ -20,7 +20,7 @@ function matmult() {
   for (var i = 0; i < SIZE; ++i)
     for (var k = 0; k < SIZE; ++k)
       for (var j = 0; j < SIZE; ++j)
-        c[i][j] += a[i][j] * a[i][k]
+        c[i][j] += a[i][k] * a[k][j]
 
   res = 0
   for (var i = 0; i < SIZE; ++i)

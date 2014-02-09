@@ -15,7 +15,7 @@ def matmult
 	for i in 0..SIZE-1
 		for k in 0..SIZE-1
 			for j in 0..SIZE-1
-				$c[i][j] += $a[i][j] * $a[i][k]
+				$c[i][j] += $a[i][k] * $a[k][j]
 			end
 		end
 	end
