@@ -25,7 +25,7 @@ cs: csharp/matmult.cs
 	mcs csharp/matmult.cs && time mono csharp/matmult.exe
 
 go: go/matmult.go
-	time go run go/matmult.go
+	go build go/matmult.go && time .matmult
 
 d: d/matmult.d
 	gdc -o matmult -O3 d/matmult.d && time ./matmult
@@ -40,7 +40,7 @@ ruby: ruby/matmult.ruby
 	time ruby ruby/matmult.ruby
 
 scala: scala/matmult.scala
-	time scala scala/matmult.scala
+	scalac scala/matmult.scala time scala -cp scala/. Matmult
 
 clean:
 	rm -rf *.class *.o *.out
