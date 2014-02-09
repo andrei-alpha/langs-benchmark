@@ -16,6 +16,7 @@ Several executions give the following results:
 |C++     |g++ 54-bit | 183 |
 |Scala | scalac 2.9.2 | 371 |
 |Java | javac 1.7.0_51 | 389 |
+|Haskell| ghc 7.6.2 | 816 |
 |Pascal | fpc 2.6.0-9 | 843 |
 |C# | Mono 2.10.8.1 | 1272 |
 |Go | Go 1.2 32-bit | 1338 |
