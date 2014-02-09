@@ -6,7 +6,7 @@ object Matmult {
 	val a = Array.fill(SIZE, SIZE)(1)
 	val c = Array.fill(SIZE, SIZE)(0)
 
-	def main() = {
+	def main(args: Array[String]) = {
 		// redundant
 		for(i <- 0 until SIZE;
 			j <- 0 until SIZE) {
