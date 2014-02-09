@@ -23,3 +23,5 @@ cs: matmult.cs
 
 go: matmult.go
 	time go run matmult.go
+clean:
+	rm -rf *.class *.o *.out
