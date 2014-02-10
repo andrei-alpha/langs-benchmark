@@ -1,4 +1,4 @@
-all: python c c++ java js coffee cs go d pascal perl ruby scala haskell
+all: python python3 pypy c c++ java js coffee cs go d pascal perl ruby scala haskell pypy topaz
 .PHONY: all
 
 .PHONY: python
@@ -8,6 +8,10 @@ python: python/matmult.py
 .PHONY: python3
 python3: python3/matmult.py
 	time python3 python3/matmult.py
+
+.PHONY: pypy
+pypy: python/matmult.py
+	time pypy python/matmult.py
 
 .PHONY: c
 c: c/matmult.c
@@ -43,7 +47,7 @@ d: d/matmult.d
 
 .PHONY: pascal
 pascal: pascal/matmult.pas
-	fpc -optimize pascal/matmult.pas && time ./matmult
+	fpc -optimize pascal/matmult.pas && time pascal/matmult
 
 .PHONY: perl
 perl: perl/matmult.pl
@@ -52,6 +56,10 @@ perl: perl/matmult.pl
 .PHONY: ruby
 ruby: ruby/matmult.ruby
 	time ruby ruby/matmult.ruby
+
+.PHONY: topaz
+topaz: ruby/matmult.ruby
+	time topaz ruby/matmult.ruby
 
 .PHONY: scala
 scala: scala/matmult.scala

@@ -22,6 +22,8 @@ Several executions give the following results:
 |Go | Go 1.2 32-bit | 1338 |
 |JavaScript | node.js v0.10.25 | 1591 |
 |CoffeScript | CoffeeScript 1.6.3 | 2371 |
+|Python-Pypy | PyPy 1.9.0 | 2570 |
+|Ruby-Topaz | Topaz 0.1 | 5942 | 
 |Python 2 | Python 2.7.4 64-bit | 41450 |
 |Ruby | ruby 1.9.3p194 | 51017 |
 |Python3 | Python 3.3.1 | 63526 | 

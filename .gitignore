@@ -16,7 +16,7 @@
 # Java
 *.class
 
-#Haskell
+# Haskell
 *.hi
 
 # Csharp

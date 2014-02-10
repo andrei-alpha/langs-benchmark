@@ -8,11 +8,11 @@ c = list(xrange(SIZE))
 
 def matmult():
   for i in xrange(SIZE):
-    a[i] = list(range(SIZE))
-    c[i] = list(range(SIZE))
+    a[i] = list(xrange(SIZE))
+    c[i] = list(xrange(SIZE))
 
-  for i in range(SIZE):
-    for j in range(SIZE):
+  for i in xrange(SIZE):
+    for j in xrange(SIZE):
       a[i][j] = 1
 
   for i in xrange(SIZE):
